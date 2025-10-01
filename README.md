@@ -1,3 +1,4 @@
+```
 Data model (ER / SQL)
 Entities
 •	users (1 row per user)
@@ -52,4 +53,4 @@ API design (REST-style; concise)
 •	GET /api/leaderboard — top users by completed tasks (params: since, limit).
 •	GET /api/analytics/summary — precomputed stats (counts per status/priority, tasks created per day).
 Security: authenticate via JWT or session; enforce RBAC if needed.
-
+```
